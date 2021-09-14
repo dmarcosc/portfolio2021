@@ -6,15 +6,14 @@ import GithubIcon from '@material-ui/icons/GitHub';
 export default function HomePage() {
     return (
         <HomePageStyled>
-            <div className="particle-con">
+            <div className="particle-container">
                 <Particle />
             </div>
             <div className="typography">
                 <h1>Hi, I'm <span>Daniel Marcos</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                Dedicated and efficient full stack developer with 2+ years experience in the IT industry. Background in both F/E and B/E technologies.
+                 Passionate about FrontEnd and specialized in Javascript with either Vue or React.js.
                 </p>
                 <div className="icons">
                     <a href="https://github.com/dmarcosc" target="_blank" className="icon i-github" rel="noreferrer">
@@ -59,12 +58,6 @@ const HomePageStyled = styled.header`
                }
                svg{
                    margin: .5rem;
-               }
-           }
-           .i-github{
-               &:hover{
-                   border: 2px solid #5F4687;
-                   color: #5F4687;
                }
            }
        }
